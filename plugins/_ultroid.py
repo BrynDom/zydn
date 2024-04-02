@@ -8,21 +8,21 @@ from telethon.errors import (
 from . import LOG_CHANNEL, LOGS, Button, asst, eor, get_string, ultroid_cmd
 
 REPOMSG = """
-▢ **Dante UBot** •\n
-▢ Owner - [Klik disini](https://t.me/Usern4meDoesNotExist404)
-▢ Group - [Klik disini](https://t.me/MusicStreamSupport)
-▢ Support - @MusicStreamSupport
+▢ **Zydn UBot** •\n
+▢ Owner - [Klik disini](https://t.me/CouldNotFoundUser)
+▢ Group - [Klik disini](https://t.me/JooxSupport)
+▢ Support - @JooxSupport
 """
 
 RP_BUTTONS = [
     [
-        Button.url(get_string("bot_3"), "https://t.me/MusicStreamSupport"),
-        Button.url("Developer", "https://t.me/Usern4meDoesNotExist404"),
+        Button.url(get_string("bot_3"), "https://t.me/JooxSupport"),
+        Button.url("Developer", "https://t.me/CouldNotFoundUser"),
     ],
-    [Button.url("Support Group", "t.me/MusicStreamSupport")],
+    [Button.url("Support Group", "t.me/JooxSupport")],
 ]
 
-ULTSTRING = """🎇 **Thanks for Deploying Bee Ubot!**
+ULTSTRING = """🎇 **Thanks for Deploying Zydn Ubot!**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
@@ -53,7 +53,7 @@ async def useUltroid(rs):
     msg = await asst.send_message(
         LOG_CHANNEL,
         ULTSTRING,
-        file="Image URL: https://mallucampaign.in/images/img_1701574887.jpg",
+        file="Image URL: https://mallucampaign.in/images/img_1712083086.jpg",
         buttons=button,
     )
     if not (rs.chat_id == LOG_CHANNEL and rs.client._bot):
