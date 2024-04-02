@@ -50,8 +50,8 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("Owners", url="https://t.me/Usern4meDoesNotExist404"),
-        Button.url("Support", url="t.me/carisahabatonline_id"),
+        Button.url("Owners", url="https://t.me/CouldNotFoundUser"),
+        Button.url("Support", url="t.me/JooxSupport"),
     ],
 ]
 
@@ -61,9 +61,9 @@ SUP_BUTTONS = [
 @in_pattern(owner=True, func=lambda x: not x.text)
 async def inline_alive(o):
     TLINK = inline_pic() or "https://mallucampaign.in/images/img_1701574887.jpg"
-    MSG = "• **Dante Ubot •**"
+    MSG = "• **Zydn Ubot •**"
     WEB0 = InputWebDocument(
-        "https://mallucampaign.in/images/img_1701574887.jpg", 0, "image/jpg", []
+        "https://mallucampaign.in/images/img_1712083086.jpg", 0, "image/jpg", []
     )
     RES = [
         await o.builder.article(
@@ -71,7 +71,7 @@ async def inline_alive(o):
             text=MSG,
             include_media=True,
             buttons=SUP_BUTTONS,
-            title="Dante Ubot",
+            title="Zydn Ubot",
             description="Userbot | Telethon",
             url=TLINK,
             thumb=WEB0,
@@ -82,7 +82,7 @@ async def inline_alive(o):
         RES,
         private=True,
         cache_time=300,
-        switch_pm="👥 DANTEUBOT PORTAL",
+        switch_pm="👥 ZYDNUBOT PORTAL",
         switch_pm_param="start",
     )
 
@@ -195,7 +195,7 @@ async def uptd_plugin(event):
                 help_ += "\n"
     if not help_:
         help_ = f"{file} has no Detailed Help!"
-    help_ += "\n@MusicStreamSupport"
+    help_ += "\n@JooxSupport"
     buttons = []
     if inline_pic():
         data = f"sndplug_{key}_{file}"
@@ -398,9 +398,9 @@ async def ibuild(e):
                     results = [
                         await builder.document(
                             _pic,
-                            title="Dante Op",
+                            title="Zydn Op",
                             text=txt,
-                            description="@Usern4meDoesNotExist404",
+                            description="@CouldNotFoundUser",
                             buttons=btn,
                             link_preview=False,
                         )
@@ -413,10 +413,10 @@ async def ibuild(e):
                     cont = InputWebDocument(pic, 0, mime_type, [])
                 results = [
                     await builder.article(
-                        title="Dante Op",
+                        title="Zydn Op",
                         type=_type,
                         text=txt,
-                        description="@MusicStreamSupport",
+                        description="@JooxSupport",
                         include_media=include_media,
                         buttons=btn,
                         thumb=cont,
@@ -428,7 +428,7 @@ async def ibuild(e):
         except Exception as er:
             LOGS.exception(er)
     result = [
-        await builder.article("BeeUBot Op", text=txt, link_preview=False, buttons=btn)
+        await builder.article("ZydnUBot Op", text=txt, link_preview=False, buttons=btn)
     ]
     await e.answer(result)
 
