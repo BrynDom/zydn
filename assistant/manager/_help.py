@@ -14,7 +14,7 @@ START = """
 ✘  /help : Get This Message.
 ✘  /repo : Get Bot's Repo..
 
-🧑‍💻 Gabung **@carisahabatonline_id**
+🧑‍💻 Gabung **@JooxSupport**
 """
 
 ADMINTOOLS = """**AdminTools**
