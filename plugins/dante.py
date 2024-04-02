@@ -1,6 +1,6 @@
 
 """
-Perintah Tersedia Untuk UBot Dante 
+Perintah Tersedia Untuk Zydn Ubot 
 
 •`{i}epek`
 
