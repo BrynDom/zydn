@@ -70,21 +70,21 @@ def ULTPIC():
 
 buttons = [
     [
-        Button.url(get_string("bot_3"), "https://t.me/MusicStreamSupport"),
-        Button.url(get_string("bot_4"), "https://t.me/MusicStreamSupport"),
+        Button.url(get_string("bot_3"), "https://t.me/JooxSupport"),
+        Button.url(get_string("bot_4"), "https://t.me/JooxSupport"),
     ]
 ]
 
 # Will move to strings
 alive_txt = """
-DanteUBot
+ZydnUBot
 
   ▢ Version - {}
-  ▢ DanteUBot - {}
+  ▢ ZydnUBot - {}
   ▢ Telethon - {}
 """
 
-in_alive = "{}\n\n▢ <b>DanteUBot Version -><b> <code>{}</code>\n▢ <b>PyUBot -></b> <code>{}</code>\n▢ <b>Python -></b> <code>{}</code>\n▢ <b>Uptime -></b> <code>{}</code>\n▢ <b>Branch -></b>[ {} ]\n\n• <b>Join @carisahabatonline_id</b>"
+in_alive = "{}\n\n▢ <b>ZydnUBot Version -><b> <code>{}</code>\n▢ <b>PyUBot -></b> <code>{}</code>\n▢ <b>Python -></b> <code>{}</code>\n▢ <b>Uptime -></b> <code>{}</code>\n▢ <b>Branch -></b>[ {} ]\n\n• <b>Join @JooxSupport</b>"
 
 
 @callback("alive")
