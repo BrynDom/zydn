@@ -10,35 +10,35 @@ import re
 from . import *
 
 STRINGS = {
-    1: """🎇 **Thanks for Deploying BeeUBot!**
+    1: """🎇 **Thanks for Deploying ZydnUBot!**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage.""",
-    2: """🎉** About BeeUBot**
+    2: """🎉** About ZydnUBot**
 
 🧿 BeeUBot is Pluggable and powerful Telethon Userbot, made in Python from Scratch. It is Aimed to Increase Security along with Addition of Other Useful Features.
 
-❣ Made by **@Usern4meDoesNotExist404**""",
+❣ Made by **@CouldNotFoundUser**""",
     3: """**💡• FAQs •**
 
--> [Username Tracker](https://t.me/Usern4meDoesNotExist404)
--> [Keeping Custom Addons Repo](https://t.me/Usern4meDoesNotExist404)
--> [Disabling Deploy message](https://t.me/Usern4meDoesNotExist404)
--> [Setting up TimeZone](https://t.me/Usern4meDoesNotExist404)
--> [About Inline PmPermit](https://t.me/Usern4meDoesNotExist404)
--> [About Dual Mode](https://t.me/Usern4meDoesNotExist404)
--> [Custom Thumbnail](https://t.me/Usern4meDoesNotExist404)
--> [About FullSudo](https://t.me/Usern4meDoesNotExist404)
--> [Setting Up PmBot](https://t.me/Usern4meDoesNotExist404)
--> [Also Check](https://t.me/Usern4meDoesNotExist404)
+-> [Username Tracker](https://t.me/CouldNotFoundUser)
+-> [Keeping Custom Addons Repo](https://t.me/CouldNotFoundUser)
+-> [Disabling Deploy message](https://t.me/CouldNotFoundUser)
+-> [Setting up TimeZone](https://t.me/CouldNotFoundUser)
+-> [About Inline PmPermit](https://t.me/CouldNotFoundUser)
+-> [About Dual Mode](https://t.me/CouldNotFoundUser)
+-> [Custom Thumbnail](https://t.me/CouldNotFoundUser)
+-> [About FullSudo](https://t.me/CouldNotFoundUser)
+-> [Setting Up PmBot](https://t.me/CouldNotFoundUser)
+-> [Also Check](https://t.me/CouldNotFoundUser)
 
 **• To Know About Updates**
-  - Join @carisahabatonline_id.""",
+  - Join @JooxSupport.""",
     4: f"""• `To Know All Available Commands`
 
   - `{HNDLR}help`
   - `{HNDLR}cmds`""",
     5: """• **For Any Other Query or Suggestion**
-  - Move to **@carisahabatonline_id**.
+  - Move to **@JooxSupport**.
 
 • Thanks for Reaching till END.""",
 }
