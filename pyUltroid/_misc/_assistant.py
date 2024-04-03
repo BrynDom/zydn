@@ -21,10 +21,10 @@ from . import append_or_update, owner_and_sudos
 OWNER = ultroid_bot.full_name
 
 MSG = f"""
-**Bee - UserBot**
+**Zydn - UserBot**
 ➖➖➖➖➖➖➖➖➖➖
 **Owner**: [{OWNER}](tg://user?id={ultroid_bot.uid})
-**Support**: @MusicStreamSupport
+**Support**: @JooxSupport
 ➖➖➖➖➖➖➖➖➖➖
 """
 
@@ -32,9 +32,9 @@ IN_BTTS = [
     [
         Button.url(
             "Owner",
-            url="https://t.me/Usern4meDoesNotExist404",
+            url="https://t.me/CouldNotFoundUser",
         ),
-        Button.url("Support", url="https://t.me/MusicStreamSupport"),
+        Button.url("Support", url="https://t.me/JooxSupport"),
     ]
 ]
 
@@ -134,7 +134,7 @@ def in_pattern(pattern=None, owner=False, **kwargs):
                                 title="Unhandled Exception has Occured!",
                                 text=error_text(),
                                 buttons=Button.url(
-                                    "Report", "https://t.me/MusicStreamSupport"
+                                    "Report", "https://t.me/JooxSupport"
                                 ),
                             )
                         ]
