@@ -1,10 +1,6 @@
 name: Indonesia
 natively: Indonesia
 
-authors:
-  - itsmenandos
-  - mrismanaziz
-
 # commons
 com_1: "`Sedang Memproses...`"
 com_2: "`Sedang Mencari...`"
@@ -156,7 +152,7 @@ bot_2: "Stats"
 bot_3: "Repo"
 bot_4: "Support"
 bot_5: "`Sedang Merestart...`"
-alive_1: "**The Ultroid Userbot...**\n\n**{}**\n\n┏━━━━━━━━━━━━━━━━━━━━━\n┣ **Owner** - `{}`\n┣ **Version** - `{}`\n┣ **Py-Ultroid** - `{}`\n┣ **UpTime** - `{}`\n┣ **Python** - `{}`\n┣ **Telethon** - `{}`\n┣ **Branch** - `{}`\n┗━━━━━━━━━━━━━━━━━━━━━"
+alive_1: "**The ZydnUbot...**\n\n**{}**\n\n┏━━━━━━━━━━━━━━━━━━━━━\n┣ **Owner** - `{}`\n┣ **Version** - `{}`\n┣ **Py-Ultroid** - `{}`\n┣ **UpTime** - `{}`\n┣ **Python** - `{}`\n┣ **Telethon** - `{}`\n┣ **Branch** - `{}`\n┗━━━━━━━━━━━━━━━━━━━━━"
 log: "**Heroku** Ultroid Logs.\nPasted [here]({}) too!"
 ping: "**Pong !!** `{}ms`\n**Uptime** - `{}`"
 usage: "**⚙️ Informasi Dyno ⚙️**:\n\n➠ **Penggunaan Dyno** `{}`:\n  •  **{}h**  **{}m |** `[{}%]`\n➠ **Sisa kuota dyno bulan ini :**\n  •  **{}h**  **{}m |** `[{}%]`\n\n**Total Ruang Disk:**: `{}`\n**Terpakai**: `{}`\n**Kosong**: `{}`\n\n**📊 Penggunaan Data 📊**\n**Upload**: `{}`\n**Down**: `{}`\n\n**CPU**: `{}%`\n**RAM**: `{}%`\n**DISK**: `{}%`"
@@ -183,7 +179,7 @@ bd_8: "`Menghapus...`"
 bd_9: "Channel sudah dihapus dari database."
 
 # calculator
-calc_1: "• BeeUBot Inline Calculator •"
+calc_1: "• ZydnUbot Inline Calculator •"
 calc_2: "Buka Kalkulator Lagi"
 
 # channel hacks
@@ -211,7 +207,7 @@ chats_1: "`Tidak dapat menghapus obrolan ini`"
 chats_2: "`Saya bukan admin`"
 chats_3: "**#Dihapus**\nMenghapus {}"
 chats_4: "Berhasil Membuat [{}]({}) Grup Anda!"
-chats_5: "Join @TeamUltroid"
+chats_5: "Join @jooxsupport"
 chats_6: "Grup/Channel {} Anda Telah Menjadi Bos!"
 
 # clean action
@@ -399,7 +395,7 @@ unspl_1: "Tidak ada hasil yang ditemukan!"
 # updater
 upd_1: "`Memeriksa pembaruan, harap tunggu....`"
 upd_2: "`Oops.. Updater tidak dapat melanjutkan karena beberapa masalah.`\n\n**LOGTRACE:**\n"
-upd_3: "**Tersedia PEMBARUAN Ultroid untuk Branch [[{}]]({}/tree/{}):\n\nPERUBAHAN:**\n\n{}"
+upd_3: "**Tersedia PEMBARUAN ZydnUbot untuk Branch [[{}]]({}/tree/{}):\n\nPERUBAHAN:**\n\n{}"
 upd_4: "`Perubahan log terlalu besar, lihat file untuk melihatnya.`"
 upd_5: "Klik tombol di bawah ini untuk memperbarui."
 upd_6: "\n**BOT Anda sudah paling-terbaru dengan [[{}]]({}/tree/{})**\n"
